@@ -26,7 +26,7 @@ public class PaymentService {
 
             Thread.sleep(5000);
 
-            boolean success = Math.random() > 0.2;
+            boolean success = Math.random() > 0.5;
 
             if (success) {
                 System.out.println("Payment successful for Order ID: " + order.getId());
